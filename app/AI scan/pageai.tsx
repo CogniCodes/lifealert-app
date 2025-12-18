@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
 import * as tf from "@tensorflow/tfjs";
 import * as tflite from "@tensorflow/tfjs-tflite";
+import { useState, useEffect, useRef } from "react";
 
 // IMPORTANT: This path must match where you put your model file
 const MODEL_PATH = "/assets/model/model_unquant.tflite";
